@@ -1,0 +1,70 @@
+Create table Income_statement_202112
+(
+    No varchar(255),
+    Name varchar(255),
+    Net_profit varchar(255),
+    Porfit_Comp varchar(255),
+    Operating_income varchar(255),
+    Income_Comp varchar(255),
+    Operating_cost varchar(255),
+    Selling_cost varchar(255),
+    Admin_cost varchar(255),
+    Financial_cost varchar(255),
+    Total_cost varchar(255),
+    Operating_profit varchar(255),
+    Total_profit varchar(255),
+    Public_date varchar(255)
+)
+
+Create table Cashflow_statement_202112
+(
+    No varchar(255),
+    Name varchar(255),
+    Net_cashflow varchar(255),
+    Cashflow_Comp varchar(255),
+    Operating_cashflow varchar(255),
+    Op_ratio varchar(255),
+    Invest_cashflow varchar(255),
+    Invest_ratio varchar(255),
+    Finance_cashflow varchar(255),
+    Finance_ratio varchar(255),
+    Public_date varchar(255)
+)
+
+Create table Balance_sheet_202112
+(
+    date varchar(255),
+    Name varchar(255),
+    cash varchar(255),
+    account_receivable varchar(255),
+    inventory varchar(255),
+    assets varchar(255),
+    assets_comp varchar(255),
+    account_payable varchar(255),
+    Deposit_received varchar(255),
+    liability varchar(255),
+    liability_comp varchar(255),
+    AL_ratio varchar(255),
+    equity varchar(255),
+    public_date varchar(255)
+)
+
+Create table cash_flow_603339
+(
+    date varchar(255),
+    net_cash_flow varchar(255),
+    net_cash_flow_comp varchar(255),
+    oper_cash_flow varchar(255),
+    oper_cash_flow_ratio varchar(255),
+    sell_cash_flow varchar(255),
+    sell_cash_flow_ratio varchar(255),
+    invest_cash_flow varchar(255),
+    invest_cash_flow_ratio varchar(255),
+    invest_profit varchar(255),
+    invest_profit_ratio varchar(255),
+    fix_assets_cash_flow varchar(255),
+    fix_assets_cash_flow_ratio varchar(255),
+    finance_cash_flow varchar(255),
+    finance_cash_flow_ratio varchar(255),
+    public_date varchar(255)
+)
